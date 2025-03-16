@@ -1,0 +1,50 @@
+[
+    {
+        "model": "blog.post",
+        "pk": 1,
+        "fields": {
+            "title": "First Post",
+            "content": "This is the content of the first post.",
+            "author": 1,
+            "created_at": "2023-01-01T10:00:00Z",
+            "updated_at": "2023-01-01T10:00:00Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "title": "Second Post",
+            "content": "This is the content of the second post.",
+            "author": 1,
+            "created_at": "2023-01-02T10:00:00Z",
+            "updated_at": "2023-01-02T10:00:00Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "blog.comment",
+        "pk": 1,
+        "fields": {
+            "post": 1,
+            "author": 1,
+            "content": "This is a comment on the first post.",
+            "created_at": "2023-01-01T11:00:00Z",
+            "updated_at": "2023-01-01T11:00:00Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "blog.comment",
+        "pk": 2,
+        "fields": {
+            "post": 2,
+            "author": 1,
+            "content": "This is a comment on the second post.",
+            "created_at": "2023-01-02T11:00:00Z",
+            "updated_at": "2023-01-02T11:00:00Z",
+            "likes": []
+        }
+    }
+]

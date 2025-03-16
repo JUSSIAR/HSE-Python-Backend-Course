@@ -1,0 +1,26 @@
+[
+    {
+        "model": "blog.comment",
+        "pk": 1,
+        "fields": {
+            "post": 1,
+            "author": 2,
+            "content": "Отличный первый пост!",
+            "created_at": "2024-03-15T10:30:00Z",
+            "updated_at": "2024-03-15T10:30:00Z",
+            "likes": [1]
+        }
+    },
+    {
+        "model": "blog.comment",
+        "pk": 2,
+        "fields": {
+            "post": 1,
+            "author": 1,
+            "content": "Спасибо за комментарий!",
+            "created_at": "2024-03-15T10:35:00Z",
+            "updated_at": "2024-03-15T10:35:00Z",
+            "likes": [2]
+        }
+    }
+] 
