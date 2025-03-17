@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %} Создать человека {% endblock title %}
+
+{% block body %}
+<form>
+    <fieldset>
+        <legend>
+            <h3>
+                Создать человека
+            </h3>
+        </legend>
+
+        <label for="first_name">FirstName</label>
+        <input id="first_name"/>
+
+        <br/>
+
+        <label for="last_name">LastName</label>
+        <input id="last_name"/>
+
+        <br/>
+
+        <button id="add-person">
+            Добавить
+        </button>
+    </fieldset>
+</form>
+
+<ul>
+    <li>
+        <a href="/"> На главную </a>
+    </li>
+</ul>
+
+<script src="http://127.0.0.1:3000/person_add.js">
+</script>
+
+{% endblock body %}
