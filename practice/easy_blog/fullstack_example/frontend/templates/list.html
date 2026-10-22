@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %} Список статей {% endblock title %}
+
+{% block body %}
+
+<h1>
+    Список статей
+</h1>
+
+<hr/>
+
+<script src="http://127.0.0.1:3333/scripts/article_list.js" defer>
+</script>
+
+<div id="list"></div>
+
+<hr/>
+
+<ul>
+    <li>
+        <a href="/"> На главную </a>
+    </li>
+</ul>
+
+{% endblock body %}

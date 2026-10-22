@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %} Создать статью {% endblock title %}
+
+{% block body %}
+<form>
+    <fieldset>
+        <legend>
+            <h3>
+                Создать статью
+            </h3>
+        </legend>
+
+        <label for="title">Название</label>
+        <input id="title"/>
+
+        <br/>
+
+        <label for="text">Text</label>
+        <input id="text"/>
+
+        <br/>
+
+        <label for="author">Author</label>
+        <input id="author"/>
+
+        <br/>
+
+        <button id="add-article">
+            Добавить
+        </button>
+    </fieldset>
+</form>
+
+<ul>
+    <li>
+        <a href="/"> На главную </a>
+    </li>
+</ul>
+
+<script src="http://127.0.0.1:3333/scripts/article_add.js">
+</script>
+
+{% endblock body %}
